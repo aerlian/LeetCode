@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using Main.Common;
 
-namespace Main
+namespace Main.Tree
 {
+    /// <summary>
+    /// https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/
+    /// </summary>
     public class SumEvenGrandparent
     {        
         public static int SumEvenGrandparentImpl(TreeNode root, List<int> path)

@@ -7,5 +7,7 @@
 
   <ItemGroup>
     <Folder Include="Common\" />
+    <Folder Include="DynamicProgramming\" />
+    <Folder Include="Tree\" />
   </ItemGroup>
 </Project>

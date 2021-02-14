@@ -1,0 +1,10 @@
+
+bin/Debug/net5.0/
+
+obj/Debug/net5.0/
+
+obj/
+
+.vs/LeetCode/xs/project-cache/Main-Debug.json
+
+.vs/LeetCode/xs/

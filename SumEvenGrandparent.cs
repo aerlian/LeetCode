@@ -21,7 +21,7 @@ namespace Main
 
             if (pathLength >= 3)
             {
-                var gp = path[path.Count - 2];
+                var gp = path[path.Count - 3];
                 if (gp % 2 == 0)
                 {
                     runningTotal += root.val;

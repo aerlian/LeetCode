@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Main
+namespace Main.DynamicProgramming
 {
     /// <summary>
     /// https://leetcode.com/problems/min-cost-climbing-stairs/

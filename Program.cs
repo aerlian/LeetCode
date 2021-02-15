@@ -14,7 +14,8 @@ namespace Main
             //AllPathsSourceTarget.Execute();
             //SumEvenGrandparent.Execute();
             //LongestPalindrome.Execute();
-            UniquePaths.Execute();
+            //UniquePaths.Execute();
+            UniquePathsWithObstacles.Execute();
         }
     }
 }

@@ -23,7 +23,7 @@ namespace Main.DynamicProgramming
             {
                 for(var j = 0; j < arr.Length; j++)
                 {
-                    if (j == 0)
+                    if (j == i)
                     {
                         continue;
                     }

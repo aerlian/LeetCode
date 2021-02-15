@@ -16,7 +16,8 @@ namespace Main
             //LongestPalindrome.Execute();
             //UniquePaths.Execute();
             //UniquePathsWithObstacles.Execute();
-            MinPathSum.Execute();
+            //MinPathSum.Execute();
+            TwoSum.Execute();
         }
     }
 }

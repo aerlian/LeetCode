@@ -9,5 +9,6 @@
     <Folder Include="Common\" />
     <Folder Include="DynamicProgramming\" />
     <Folder Include="Tree\" />
+    <Folder Include="SeventyFive\" />
   </ItemGroup>
 </Project>

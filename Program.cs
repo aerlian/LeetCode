@@ -1,5 +1,6 @@
 ﻿using Main.Tree;
 using Main.DynamicProgramming;
+using Main.SeventyFive;
 
 namespace Main
 {
@@ -13,7 +14,12 @@ namespace Main
             //GroupPeople.Execute();
             //AllPathsSourceTarget.Execute();
             //SumEvenGrandparent.Execute();
-            LongestPalindrome.Execute();
+            //LongestPalindrome.Execute();
+            //UniquePaths.Execute();
+            //UniquePathsWithObstacles.Execute();
+            //MinPathSum.Execute();
+            //TwoSum.Execute();
+            LengthOfLongestSubstring.Execute();
         }
     }
 }

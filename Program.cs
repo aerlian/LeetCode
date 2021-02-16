@@ -1,6 +1,7 @@
 ﻿using Main.Tree;
 using Main.DynamicProgramming;
 using Main.SeventyFive;
+using Main.SeventyFive.LinkedList;
 
 namespace Main
 {
@@ -19,7 +20,8 @@ namespace Main
             //UniquePathsWithObstacles.Execute();
             //MinPathSum.Execute();
             //TwoSum.Execute();
-            LengthOfLongestSubstring.Execute();
+            //LengthOfLongestSubstring.Execute();
+            PalindromeLinkedList.Execute();
         }
     }
 }

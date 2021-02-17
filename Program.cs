@@ -22,7 +22,8 @@ namespace Main
             //TwoSum.Execute();
             //LengthOfLongestSubstring.Execute();
             //PalindromeLinkedList.Execute();
-            RemoveLinkedListElements.Execute();
+            //RemoveLinkedListElements.Execute();
+            DeleteDuplicates.Execute();
         }
     }
 }

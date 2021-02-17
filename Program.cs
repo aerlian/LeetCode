@@ -21,7 +21,8 @@ namespace Main
             //MinPathSum.Execute();
             //TwoSum.Execute();
             //LengthOfLongestSubstring.Execute();
-            PalindromeLinkedList.Execute();
+            //PalindromeLinkedList.Execute();
+            RemoveLinkedListElements.Execute();
         }
     }
 }

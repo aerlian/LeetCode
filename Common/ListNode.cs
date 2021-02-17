@@ -1,4 +1,6 @@
-﻿namespace Main.Common
+﻿using System.Collections.Generic;
+
+namespace Main.Common
 {
     public class ListNode
     {
@@ -7,7 +9,23 @@
         public ListNode(int val = 0, ListNode next = null)
         {
             this.val = val;
-            this.next = next;
+            this.next = next;            
+        }
+
+        public override string ToString()
+        {
+            static IEnumerable<int> ToEnumerable(ListNode head)
+            {
+                var p = head;
+
+                while (p != null)
+                {
+                    yield return p.val;
+                    p = p.next;
+                }
+            }
+
+            return string.Join(", ", ToEnumerable(this));
         }
 
         public static ListNode Create(int[] source)

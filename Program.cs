@@ -23,7 +23,8 @@ namespace Main
             //LengthOfLongestSubstring.Execute();
             //PalindromeLinkedList.Execute();
             //RemoveLinkedListElements.Execute();
-            DeleteDuplicates.Execute();
+            //DeleteDuplicates.Execute();
+            ReverseLinkedList.Execute();
         }
     }
 }

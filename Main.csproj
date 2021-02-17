@@ -10,5 +10,6 @@
     <Folder Include="DynamicProgramming\" />
     <Folder Include="Tree\" />
     <Folder Include="SeventyFive\" />
+    <Folder Include="SeventyFive\LinkedList\" />
   </ItemGroup>
 </Project>

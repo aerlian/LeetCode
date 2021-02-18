@@ -2,6 +2,7 @@
 using Main.DynamicProgramming;
 using Main.SeventyFive;
 using Main.SeventyFive.LinkedList;
+using Main.SeventyFive.TwoPointers;
 
 namespace Main
 {
@@ -24,7 +25,8 @@ namespace Main
             //PalindromeLinkedList.Execute();
             //RemoveLinkedListElements.Execute();
             //DeleteDuplicates.Execute();
-            ReverseLinkedList.Execute();
+            //ReverseLinkedList.Execute();
+            MergeTwoSortedLists.Execute();
         }
     }
 }

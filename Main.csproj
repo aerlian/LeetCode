@@ -11,5 +11,6 @@
     <Folder Include="Tree\" />
     <Folder Include="SeventyFive\" />
     <Folder Include="SeventyFive\LinkedList\" />
+    <Folder Include="SeventyFive\TwoPointers\" />
   </ItemGroup>
 </Project>

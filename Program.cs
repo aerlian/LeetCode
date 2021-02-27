@@ -3,6 +3,7 @@ using Main.DynamicProgramming;
 using Main.SeventyFive;
 using Main.SeventyFive.LinkedList;
 using Main.SeventyFive.TwoPointers;
+using Main.SeventyFive.BinarySearch;
 
 namespace Main
 {
@@ -26,7 +27,11 @@ namespace Main
             //RemoveLinkedListElements.Execute();
             //DeleteDuplicates.Execute();
             //ReverseLinkedList.Execute();
-            MergeTwoSortedLists.Execute();
-        }
+            //MergeTwoSortedLists.Execute();
+            //FindSmallestLetterGreaterThanTarget.Execute();
+            //RotatedBinarySearch.Execute();
+            //MaximumSubArraySizeN.Execute();
+            SubArraySum.Execute();
+       }
     }
 }

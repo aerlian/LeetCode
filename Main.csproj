@@ -12,5 +12,6 @@
     <Folder Include="SeventyFive\" />
     <Folder Include="SeventyFive\LinkedList\" />
     <Folder Include="SeventyFive\TwoPointers\" />
+    <Folder Include="SeventyFive\BinarySearch\" />
   </ItemGroup>
 </Project>

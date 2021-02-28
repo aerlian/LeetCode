@@ -13,5 +13,6 @@
     <Folder Include="SeventyFive\LinkedList\" />
     <Folder Include="SeventyFive\TwoPointers\" />
     <Folder Include="SeventyFive\BinarySearch\" />
+    <Folder Include="SeventyFive\MergeIntervals\" />
   </ItemGroup>
 </Project>

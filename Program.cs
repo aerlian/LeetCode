@@ -33,7 +33,8 @@ namespace Main
             //RotatedBinarySearch.Execute();
             //MaximumSubArraySizeN.Execute();
             //SubArraySum.Execute();
-            IntervalMerge.Execute();
+            //IntervalMerge.Execute();
+            InsertInterval.Execute();
        }
     }
 }

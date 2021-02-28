@@ -4,6 +4,7 @@ using Main.SeventyFive;
 using Main.SeventyFive.LinkedList;
 using Main.SeventyFive.TwoPointers;
 using Main.SeventyFive.BinarySearch;
+using Main.SeventyFive.MergeIntervals;
 
 namespace Main
 {
@@ -31,7 +32,8 @@ namespace Main
             //FindSmallestLetterGreaterThanTarget.Execute();
             //RotatedBinarySearch.Execute();
             //MaximumSubArraySizeN.Execute();
-            SubArraySum.Execute();
+            //SubArraySum.Execute();
+            IntervalMerge.Execute();
        }
     }
 }

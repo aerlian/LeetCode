@@ -34,7 +34,9 @@ namespace Main
             //MaximumSubArraySizeN.Execute();
             //SubArraySum.Execute();
             //IntervalMerge.Execute();
-            InsertInterval.Execute();
-       }
+            //InsertInterval.Execute();
+            MaxSubstringKDistinctChars.Execute();
+
+        }
     }
 }

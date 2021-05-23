@@ -30,13 +30,15 @@ namespace Main
             //ReverseLinkedList.Execute();
             //MergeTwoSortedLists.Execute();
             //FindSmallestLetterGreaterThanTarget.Execute();
-            //RotatedBinarySearch.Execute();
+            //FindRotationPointBinarySearch.Execute();
             //MaximumSubArraySizeN.Execute();
             //SubArraySum.Execute();
             //IntervalMerge.Execute();
             //InsertInterval.Execute();
-            MaxSubstringKDistinctChars.Execute();
-
+            //MaxSubstringKDistinctChars.Execute();
+            //IsPermutationOf.Execute();
+            //AllPermutations.Execute
+            SeventyFive.TwoPointers.LongestPalindrome.Execute();
         }
     }
 }

@@ -38,7 +38,8 @@ namespace Main
             //MaxSubstringKDistinctChars.Execute();
             //IsPermutationOf.Execute();
             //AllPermutations.Execute
-            SeventyFive.TwoPointers.LongestPalindrome.Execute();
+            //SeventyFive.TwoPointers.LongestPalindrome.Execute();
+            SeventyFive.LinkedList.RemoveNthFromEnd.Execute();
         }
     }
 }

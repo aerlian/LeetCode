@@ -42,7 +42,8 @@ namespace Main
             //SeventyFive.LinkedList.RemoveNthFromEnd.Execute();
             //RotateMatrix.Execute();
             //MaxSubArray.Execute();
-            SpiralOrder.Execute();
+            //SpiralOrder.Execute();
+            CanJump.Execute();
         }
     }
 }

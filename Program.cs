@@ -43,7 +43,8 @@ namespace Main
             //RotateMatrix.Execute();
             //MaxSubArray.Execute();
             //SpiralOrder.Execute();
-            CanJump.Execute();
+            //CanJump.Execute();
+            MergeIntervalsLC.Execute();
         }
     }
 }

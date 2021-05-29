@@ -39,7 +39,11 @@ namespace Main
             //IsPermutationOf.Execute();
             //AllPermutations.Execute
             //SeventyFive.TwoPointers.LongestPalindrome.Execute();
-            SeventyFive.LinkedList.RemoveNthFromEnd.Execute();
+            //SeventyFive.LinkedList.RemoveNthFromEnd.Execute();
+            //RotateMatrix.Execute();
+            //MaxSubArray.Execute();
+            //SpiralOrder.Execute();
+            CanJump.Execute();
         }
     }
 }

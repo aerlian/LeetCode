@@ -44,7 +44,8 @@ namespace Main
             //MaxSubArray.Execute();
             //SpiralOrder.Execute();
             //CanJump.Execute();
-            MergeIntervalsLC.Execute();
+            //MergeIntervalsLC.Execute();
+            SeventyFive.InsertInterval.Execute();
         }
     }
 }

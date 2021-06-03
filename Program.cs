@@ -45,7 +45,10 @@ namespace Main
             //SpiralOrder.Execute();
             //CanJump.Execute();
             //MergeIntervalsLC.Execute();
-            SeventyFive.InsertInterval.Execute();
+            //SeventyFive.InsertInterval.Execute();
+            //ParseChallenges.Execute();
+            //IsValidBST.Execute();
+            LevelOrder.Execute();
         }
     }
 }

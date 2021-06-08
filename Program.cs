@@ -5,6 +5,7 @@ using Main.SeventyFive.LinkedList;
 using Main.SeventyFive.TwoPointers;
 using Main.SeventyFive.BinarySearch;
 using Main.SeventyFive.MergeIntervals;
+using Main.SeventyFive.Bits;
 
 namespace Main
 {
@@ -48,7 +49,10 @@ namespace Main
             //SeventyFive.InsertInterval.Execute();
             //ParseChallenges.Execute();
             //IsValidBST.Execute();
-            LevelOrder.Execute();
+            //LevelOrder.Execute();
+            //PreorderInorderTraversal.Execute();
+            //ReorderList.Execute();
+            ReverseBits.Execute();
         }
     }
 }

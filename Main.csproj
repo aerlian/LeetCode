@@ -14,5 +14,9 @@
     <Folder Include="SeventyFive\TwoPointers\" />
     <Folder Include="SeventyFive\BinarySearch\" />
     <Folder Include="SeventyFive\MergeIntervals\" />
+    <Folder Include="SeventyFive\Bits\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="SeventyFive\Bits\" />
   </ItemGroup>
 </Project>

@@ -6,6 +6,7 @@ using Main.SeventyFive.TwoPointers;
 using Main.SeventyFive.BinarySearch;
 using Main.SeventyFive.MergeIntervals;
 using Main.SeventyFive.Bits;
+using Main.SeventyFive.Graph;
 
 namespace Main
 {
@@ -52,7 +53,8 @@ namespace Main
             //LevelOrder.Execute();
             //PreorderInorderTraversal.Execute();
             //ReorderList.Execute();
-            ReverseBits.Execute();
+            //ReverseBits.Execute();
+            CourseSchedule.Execute();
         }
     }
 }

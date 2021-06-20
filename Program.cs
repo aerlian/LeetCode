@@ -57,7 +57,8 @@ namespace Main
             //CourseSchedule.Execute();
             //ImplementTrie.Execute();
             //WordDictionary.Execute();
-            KthSmallestElementBST.Execute();
+            //KthSmallestElementBST.Execute();
+            LowestCommonAncestor.Execute();
         }
     }
 }

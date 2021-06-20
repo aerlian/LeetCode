@@ -56,7 +56,8 @@ namespace Main
             //ReverseBits.Execute();
             //CourseSchedule.Execute();
             //ImplementTrie.Execute();
-            WordDictionary.Execute();
+            //WordDictionary.Execute();
+            KthSmallestElementBST.Execute();
         }
     }
 }

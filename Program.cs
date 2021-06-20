@@ -54,7 +54,8 @@ namespace Main
             //PreorderInorderTraversal.Execute();
             //ReorderList.Execute();
             //ReverseBits.Execute();
-            CourseSchedule.Execute();
+            //CourseSchedule.Execute();
+            ImplementTrie.Execute();
         }
     }
 }

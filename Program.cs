@@ -55,7 +55,8 @@ namespace Main
             //ReorderList.Execute();
             //ReverseBits.Execute();
             //CourseSchedule.Execute();
-            ImplementTrie.Execute();
+            //ImplementTrie.Execute();
+            WordDictionary.Execute();
         }
     }
 }

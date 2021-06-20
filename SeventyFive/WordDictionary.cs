@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace Main.SeventyFive
 {
+    /// <summary>
+    /// https://leetcode.com/problems/design-add-and-search-words-data-structure/
+    /// </summary>
     public class WdTrie
     {
         public class WdTrieNode

@@ -58,7 +58,8 @@ namespace Main
             //ImplementTrie.Execute();
             //WordDictionary.Execute();
             //KthSmallestElementBST.Execute();
-            LowestCommonAncestor.Execute();
+            //LowestCommonAncestor.Execute();
+            CountBits.Execute();
         }
     }
 }

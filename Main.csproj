@@ -16,9 +16,11 @@
     <Folder Include="SeventyFive\MergeIntervals\" />
     <Folder Include="SeventyFive\Bits\" />
     <Folder Include="SeventyFive\Graph\" />
+    <Folder Include="SeventyFive\Tree\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="SeventyFive\Bits\" />
     <None Remove="SeventyFive\Graph\" />
+    <None Remove="SeventyFive\Tree\" />
   </ItemGroup>
 </Project>

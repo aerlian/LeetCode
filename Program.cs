@@ -8,6 +8,7 @@ using Main.SeventyFive.MergeIntervals;
 using Main.SeventyFive.Bits;
 using Main.SeventyFive.Graph;
 using Main.SeventyFive.Tree;
+using Main.SeventyFive.Strings;
 
 namespace Main
 {
@@ -65,7 +66,8 @@ namespace Main
             //PacificAtlanticWaterFlow.Execute();
             //EraseOverlapIntervals.Execute();
             //SerializeDeserializeBST.Execute();
-            SubtreeOfAnotherTree.Execute();
+            //SubtreeOfAnotherTree.Execute();
+            PalindromeSubstrings.Execute();
         }
     }
 }

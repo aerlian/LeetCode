@@ -15,7 +15,18 @@ namespace Main
 {
     class Program
     {
+        static void Patterns()
+        {
+            FindAllDuplicatesInAnArray.Execute();
+            //ProductOfArrayExceptSelf.Execute();
+        }
+
         static void Main(string[] args)
+        {
+            Patterns();
+        }
+
+        static void SeventyFiveMain()
         {
             //DivisorGame.Execute();
             //BuyAndSellStock.Execute();
@@ -69,7 +80,7 @@ namespace Main
             //SerializeDeserializeBST.Execute();
             //SubtreeOfAnotherTree.Execute();
             //PalindromeSubstrings.Execute();
-            ProductOfArrayExceptSelf.Execute();
+            //ProductOfArrayExceptSelf.Execute();
         }
     }
 }

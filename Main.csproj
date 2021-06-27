@@ -18,11 +18,13 @@
     <Folder Include="SeventyFive\Graph\" />
     <Folder Include="SeventyFive\Tree\" />
     <Folder Include="SeventyFive\Strings\" />
+    <Folder Include="Patterns\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="SeventyFive\Bits\" />
     <None Remove="SeventyFive\Graph\" />
     <None Remove="SeventyFive\Tree\" />
     <None Remove="SeventyFive\Strings\" />
+    <None Remove="Patterns\" />
   </ItemGroup>
 </Project>

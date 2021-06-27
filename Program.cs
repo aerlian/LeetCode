@@ -9,6 +9,7 @@ using Main.SeventyFive.Bits;
 using Main.SeventyFive.Graph;
 using Main.SeventyFive.Tree;
 using Main.SeventyFive.Strings;
+using Main.Patterns;
 
 namespace Main
 {
@@ -67,7 +68,8 @@ namespace Main
             //EraseOverlapIntervals.Execute();
             //SerializeDeserializeBST.Execute();
             //SubtreeOfAnotherTree.Execute();
-            PalindromeSubstrings.Execute();
+            //PalindromeSubstrings.Execute();
+            ProductOfArrayExceptSelf.Execute();
         }
     }
 }

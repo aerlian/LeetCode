@@ -17,7 +17,8 @@ namespace Main
     {
         static void Patterns()
         {
-            FindAllDuplicatesInAnArray.Execute();
+            Subsets.Execute();
+            //FindAllDuplicatesInAnArray.Execute();
             //ProductOfArrayExceptSelf.Execute();
         }
 

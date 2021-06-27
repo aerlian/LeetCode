@@ -17,10 +17,12 @@
     <Folder Include="SeventyFive\Bits\" />
     <Folder Include="SeventyFive\Graph\" />
     <Folder Include="SeventyFive\Tree\" />
+    <Folder Include="SeventyFive\Strings\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="SeventyFive\Bits\" />
     <None Remove="SeventyFive\Graph\" />
     <None Remove="SeventyFive\Tree\" />
+    <None Remove="SeventyFive\Strings\" />
   </ItemGroup>
 </Project>

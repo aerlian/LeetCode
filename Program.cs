@@ -10,6 +10,7 @@ using Main.SeventyFive.Graph;
 using Main.SeventyFive.Tree;
 using Main.SeventyFive.Strings;
 using Main.Patterns;
+using Main.Patterns.Array;
 
 namespace Main
 {
@@ -17,7 +18,9 @@ namespace Main
     {
         static void Patterns()
         {
-            Subsets.Execute();
+            MoveZeroes.Execute();
+            //Combinations.Execute();
+            //Subsets.Execute();
             //FindAllDuplicatesInAnArray.Execute();
             //ProductOfArrayExceptSelf.Execute();
         }

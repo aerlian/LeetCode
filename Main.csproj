@@ -19,6 +19,7 @@
     <Folder Include="SeventyFive\Tree\" />
     <Folder Include="SeventyFive\Strings\" />
     <Folder Include="Patterns\" />
+    <Folder Include="Patterns\Array\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="SeventyFive\Bits\" />
@@ -26,5 +27,6 @@
     <None Remove="SeventyFive\Tree\" />
     <None Remove="SeventyFive\Strings\" />
     <None Remove="Patterns\" />
+    <None Remove="Patterns\Array\" />
   </ItemGroup>
 </Project>

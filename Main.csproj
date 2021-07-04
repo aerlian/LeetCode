@@ -13,7 +13,7 @@
     <Folder Include="SeventyFive\LinkedList\" />
     <Folder Include="SeventyFive\TwoPointers\" />
     <Folder Include="SeventyFive\BinarySearch\" />
-    <Folder Include="SeventyFive\MergeIntervals\" />
+    <Folder Include="SeventyFive\Intervals\" />
     <Folder Include="SeventyFive\Bits\" />
     <Folder Include="SeventyFive\Graph\" />
     <Folder Include="SeventyFive\Tree\" />

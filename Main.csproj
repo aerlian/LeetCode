@@ -20,6 +20,7 @@
     <Folder Include="SeventyFive\Strings\" />
     <Folder Include="Patterns\" />
     <Folder Include="Patterns\Array\" />
+    <Folder Include="Patterns\Backtracking\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="SeventyFive\Bits\" />
@@ -28,5 +29,6 @@
     <None Remove="SeventyFive\Strings\" />
     <None Remove="Patterns\" />
     <None Remove="Patterns\Array\" />
+    <None Remove="Patterns\Backtracking\" />
   </ItemGroup>
 </Project>

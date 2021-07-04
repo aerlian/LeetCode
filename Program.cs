@@ -19,7 +19,8 @@ namespace Main
     {
         static void Patterns()
         {
-            Combinations.Execute();
+            CombinationSum.Execute();
+            //Combinations.Execute();
             //MoveZeroes.Execute();
             //Combinations.Execute();
             //Subsets.Execute();

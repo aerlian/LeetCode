@@ -11,6 +11,7 @@ using Main.SeventyFive.Tree;
 using Main.SeventyFive.Strings;
 using Main.Patterns;
 using Main.Patterns.Array;
+using Main.Patterns.Backtracking;
 
 namespace Main
 {
@@ -18,7 +19,8 @@ namespace Main
     {
         static void Patterns()
         {
-            MoveZeroes.Execute();
+            Combinations.Execute();
+            //MoveZeroes.Execute();
             //Combinations.Execute();
             //Subsets.Execute();
             //FindAllDuplicatesInAnArray.Execute();

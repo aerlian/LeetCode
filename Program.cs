@@ -12,6 +12,7 @@ using Main.SeventyFive.Strings;
 using Main.Patterns;
 using Main.Patterns.Array;
 using Main.Patterns.Backtracking;
+using Main.SeventyFive.Intervals;
 
 namespace Main
 {
@@ -19,7 +20,7 @@ namespace Main
     {
         static void Patterns()
         {
-            CombinationSum.Execute();
+            //CombinationSum.Execute();
             //Combinations.Execute();
             //MoveZeroes.Execute();
             //Combinations.Execute();
@@ -30,7 +31,8 @@ namespace Main
 
         static void Main(string[] args)
         {
-            Patterns();
+            //Patterns();
+            SeventyFiveMain();
         }
 
         static void SeventyFiveMain()
@@ -88,6 +90,7 @@ namespace Main
             //SubtreeOfAnotherTree.Execute();
             //PalindromeSubstrings.Execute();
             //ProductOfArrayExceptSelf.Execute();
+            CanAttendMeetings.Execute();
         }
     }
 }

@@ -93,7 +93,8 @@ namespace Main
             //CanAttendMeetings.Execute();
             //MinMeetingRooms.Execute();
             //ValidTree.Execute();
-            EncodeDecodeStrings.Execute();
+            //EncodeDecodeStrings.Execute();
+            NumberOfConnectedComponentsInAnUndirectedGraph.Execute();
         }
     }
 }

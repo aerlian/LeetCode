@@ -20,6 +20,8 @@ namespace Main
     {
         static void Patterns()
         {
+            AddBinary.Execute();
+            //ZigZagConversion.Execute();
             //CombinationSum.Execute();
             //Combinations.Execute();
             //MoveZeroes.Execute();
@@ -31,8 +33,8 @@ namespace Main
 
         static void Main(string[] args)
         {
-            //Patterns();
-            SeventyFiveMain();
+            Patterns();
+            //SeventyFiveMain();
         }
 
         static void SeventyFiveMain()
@@ -94,7 +96,7 @@ namespace Main
             //MinMeetingRooms.Execute();
             //ValidTree.Execute();
             //EncodeDecodeStrings.Execute();
-            NumberOfConnectedComponentsInAnUndirectedGraph.Execute();
+            //NumberOfConnectedComponentsInAnUndirectedGraph.Execute();
         }
     }
 }

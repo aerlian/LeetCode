@@ -21,6 +21,7 @@ namespace Main
     {
         static void Patterns()
         {
+            GenerateParenthesis.Execute();
             //AddBinary.Execute();
             //ZigZagConversion.Execute();
             //CombinationSum.Execute();
@@ -34,8 +35,8 @@ namespace Main
 
         static void Main(string[] args)
         {
-            //Patterns();
-            SeventyFiveMain();
+            Patterns();
+            //SeventyFiveMain();
         }
 
         static void SeventyFiveMain()
@@ -70,7 +71,7 @@ namespace Main
             //SeventyFive.LinkedList.RemoveNthFromEnd.Execute();
             //RotateMatrix.Execute();
             //MaxSubArray.Execute();
-            SpiralOrder.Execute();
+            //SpiralOrder.Execute();
             //CanJump.Execute();
             //MergeIntervalsLC.Execute();
             //SeventyFive.InsertInterval.Execute();

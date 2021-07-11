@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Main.SeventyFive.Bits
 {
@@ -52,35 +51,3 @@ namespace Main.SeventyFive.Bits
         }
     }
 }
-
-//IEnumerable<int> CreatePadding(int x, int y)
-//{
-//    return x > y ? Enumerable.Repeat(0, x - y) : Enumerable.Empty<int>();
-//}
-
-//var first = CreatePadding(b.Length, a.Length).Concat(a.Select(x => x - '0'));
-//var second = CreatePadding(a.Length, b.Length).Concat(b.Select(x => x - '0'));
-//var output = new Stack<int>();
-//var carry = 0;
-
-//foreach (var pair in first.Zip(second, (i, j) => (i, j)).Reverse())
-//{
-//    var x = pair.Item1;
-//    var y = pair.Item2;
-//    var sum = x + y + carry;
-//    carry = 0;
-
-//    if (sum >= 2)
-//    {
-//        carry = sum / 2;
-//        sum = sum % 2;
-//    }
-//    output.Push(sum);
-//}
-
-//if (carry > 0)
-//{
-//    output.Push(1);
-//}
-
-//return new string(output.Select(i => (char)(i + '0')).ToArray());

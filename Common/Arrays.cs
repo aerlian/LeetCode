@@ -1,5 +1,5 @@
 ﻿
-using System.Collections.Generic;
+using System;
 using System.Linq;
 using System.Text;
 
@@ -8,22 +8,16 @@ namespace Main.Common
     public static class Arrays
     {
         //[[0,1],[1,2],[2,3],[1,3],[1,4]]
-
-        public static int[] Extract(string part)
+        ////[["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]]
+        public static T [][] CreateFrom<T>(string source, Func<string, T> converter)
         {
-            var nextPart = part.Substring(1).Substring(0, part.Length - 2);
-            var pieces = nextPart.Split(',');
-            return new int[] { int.Parse(pieces[0]), int.Parse(pieces[1]) };
-        }
-
-        public static int [][] CreateFrom(string source)
-        {
-            var source2 = ReplaceColon(source);
+            var source2 = ReplaceWithColon(source);
             var parts = source2.Split(';');
-            return parts.Select(p => Extract(p)).ToArray();
+            var output = parts.Select(p => p.Substring(1).Substring(0, p.Length - 2).Split(",").Select(q => converter(q)).ToArray()).ToArray();
+            return output;
         }
 
-        private static string ReplaceColon(string source)
+        private static string ReplaceWithColon(string source)
         {
             var elementCount = 0;
             var bld = new StringBuilder();
@@ -32,7 +26,6 @@ namespace Main.Common
             {
                 var ch = source[i];
                 bld.Append(ch);
-
 
                 if (ch == '[')
                 {

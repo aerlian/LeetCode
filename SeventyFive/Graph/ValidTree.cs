@@ -9,7 +9,7 @@ namespace Main.SeventyFive.Graph
         public static void Execute()
         {
             //var edges = Arrays.CreateFrom("[[0,1],[1,2],[2,3],[1,3],[1,4]]");
-            var edges = Arrays.CreateFrom("[[0,1],[0,2],[0,3],[1,4]]");
+            var edges = Arrays.CreateFrom("[[0,1],[0,2],[0,3],[1,4]]", p => int.Parse(p));
             Console.WriteLine(ValidTreeImpl(5, edges));
         }
 

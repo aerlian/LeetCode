@@ -70,7 +70,7 @@ namespace Main
             //SeventyFive.LinkedList.RemoveNthFromEnd.Execute();
             //RotateMatrix.Execute();
             //MaxSubArray.Execute();
-            //SpiralOrder.Execute();
+            SpiralOrder.Execute();
             //CanJump.Execute();
             //MergeIntervalsLC.Execute();
             //SeventyFive.InsertInterval.Execute();
@@ -98,7 +98,7 @@ namespace Main
             //ValidTree.Execute();
             //EncodeDecodeStrings.Execute();
             //NumberOfConnectedComponentsInAnUndirectedGraph.Execute();
-            WordSearch.Execute();
+            //WordSearch.Execute();
         }
     }
 }

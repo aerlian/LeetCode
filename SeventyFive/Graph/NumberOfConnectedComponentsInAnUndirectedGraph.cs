@@ -11,9 +11,9 @@ namespace Main.SeventyFive.Graph
     {
         public static void Execute()
         {
-            var edges = Arrays.CreateFrom("[[0,1],[1,2],[2,3],[3,4]]");
+            var edges = Arrays.CreateFrom("[[0,1],[1,2],[2,3],[3,4]]", p => int.Parse(p));
             Console.WriteLine(NumberOfConnectedComponentsInAnUndirectedGraphImpl(5, edges));
-            //var edges = Arrays.CreateFrom("[[0,1],[1,2],[3,4]]");
+            //var edges = Arrays.CreateFrom("[[0,1],[1,2],[3,4]]", p => int.Parse(p));
             //Console.WriteLine(NumberOfConnectedComponentsInAnUndirectedGraphImpl(5, edges));
         }
 

@@ -13,6 +13,7 @@ using Main.Patterns;
 using Main.Patterns.Array;
 using Main.Patterns.Backtracking;
 using Main.SeventyFive.Intervals;
+using Main.SeventyFive.Backtracking;
 
 namespace Main
 {
@@ -20,7 +21,7 @@ namespace Main
     {
         static void Patterns()
         {
-            AddBinary.Execute();
+            //AddBinary.Execute();
             //ZigZagConversion.Execute();
             //CombinationSum.Execute();
             //Combinations.Execute();
@@ -33,8 +34,8 @@ namespace Main
 
         static void Main(string[] args)
         {
-            Patterns();
-            //SeventyFiveMain();
+            //Patterns();
+            SeventyFiveMain();
         }
 
         static void SeventyFiveMain()
@@ -97,6 +98,7 @@ namespace Main
             //ValidTree.Execute();
             //EncodeDecodeStrings.Execute();
             //NumberOfConnectedComponentsInAnUndirectedGraph.Execute();
+            WordSearch.Execute();
         }
     }
 }

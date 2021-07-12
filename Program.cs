@@ -21,7 +21,8 @@ namespace Main
     {
         static void Patterns()
         {
-            GenerateParenthesis.Execute();
+            LetterCombinations.Execute();
+            //GenerateParenthesis.Execute();
             //AddBinary.Execute();
             //ZigZagConversion.Execute();
             //CombinationSum.Execute();

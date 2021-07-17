@@ -12,19 +12,19 @@ namespace Main.Common
             this.next = next;            
         }
 
+        public static IEnumerable<int> ToEnumerable(ListNode head)
+        {
+            var p = head;
+
+            while (p != null)
+            {
+                yield return p.val;
+                p = p.next;
+            }
+        }
+
         public override string ToString()
         {
-            static IEnumerable<int> ToEnumerable(ListNode head)
-            {
-                var p = head;
-
-                while (p != null)
-                {
-                    yield return p.val;
-                    p = p.next;
-                }
-            }
-
             return string.Join(", ", ToEnumerable(this));
         }
 

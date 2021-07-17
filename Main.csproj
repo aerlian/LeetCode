@@ -23,6 +23,7 @@
     <Folder Include="Patterns\Backtracking\" />
     <Folder Include="Patterns\Bits\" />
     <Folder Include="SeventyFive\Backtracking\" />
+    <Folder Include="Patterns\LinkedList\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="SeventyFive\Bits\" />
@@ -34,5 +35,6 @@
     <None Remove="Patterns\Backtracking\" />
     <None Remove="Patterns\Bits\" />
     <None Remove="SeventyFive\Backtracking\" />
+    <None Remove="Patterns\LinkedList\" />
   </ItemGroup>
 </Project>

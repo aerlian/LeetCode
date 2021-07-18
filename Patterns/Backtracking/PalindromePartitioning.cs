@@ -56,52 +56,5 @@ namespace Main.Patterns.Backtracking
 
             return true;
         }
-
-
-        /*
-        public static IList<IList<string>> Partition(string s)
-        {
-            var output = new List<IList<string>>();
-
-            dfs(s, 0, new List<string>());
-
-            return output;
-
-            void dfs(string q, int start, List<string> lst)
-            {
-                if (start >= q.Length)
-                {
-                    output.Add(new List<string>(lst));
-                    return;
-                }
-
-                for (var i = start; i < q.Length; i++)
-                {
-                    if (IsPalidrome(q, start, i))
-                    {
-                        lst.Add(q.Substring(start, i - start + 1));
-                        dfs(q, i + 1, lst);
-                        lst.RemoveAt(lst.Count - 1);
-                    }
-                }
-            }
-
-            bool IsPalidrome(string s, int start, int end)
-            {
-                var i = start;
-                var j = end;
-                while (i < j)
-                {
-                    if (s[i++] != s[j--])
-                    {
-                        return false;
-                    }
-                }
-
-                return true;
-            }
-        }
-        */
-
     }
 }

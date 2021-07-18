@@ -1,6 +1,9 @@
 ﻿using System;
 namespace Main.SeventyFive.Strings
 {
+    /// <summary>
+    /// https://leetcode.com/problems/palindromic-substrings/
+    /// </summary>
     public class PalindromeSubstrings
     {
         public static void Execute()

@@ -22,7 +22,9 @@ namespace Main
     {
         static void Patterns()
         {
-            AddTwoNumbers.Execute();
+            PalindromePartitioning.Execute();
+            //ValidIPAddress.Execute();
+            //AddTwoNumbers.Execute();
             //LetterCombinations.Execute();
             //GenerateParenthesis.Execute();
             //AddBinary.Execute();
